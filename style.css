@@ -1,0 +1,279 @@
+html {
+    font-size: 62.5%;
+    font-family: "Red Hat Display", sans-serif;
+  }
+  
+  body {
+    font-size: 1.6rem;
+    background-color:lavender;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    overflow: hidden;
+  }
+  input[type="text"],
+   textarea{
+    width: 73%;
+
+}
+  p{
+    margin-left: 3rem;
+  }
+  .select{
+    color:black;
+    display: flex;
+    flex-direction: column;
+    padding-right: 3.2rem;
+
+  }
+  .select .choose{
+
+    color: gray;
+    margin-top: 1rem;
+  }
+  .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #fff;
+    width: 40rem;
+    border-radius: .5rem;
+  }
+  
+  
+  .card .card-title {
+    padding: 2rem 2rem 0rem 2rem;
+    text-align: center;
+    color: #1f2f56;
+    font-size: 2rem;
+  }
+  .id{
+    display: flex;
+    gap: 60px;
+  }
+  .id p{
+    font-size: 15px;
+    color:gray;
+  }
+  .id .black{
+    color: black;
+    margin-bottom: 1rem;
+  }
+  .id .small{
+    font-size: 13px;
+    color: #3e52a3;
+  }
+  .password{
+    margin-top: -0.1rem;
+    padding: 0rem 3.2rem;
+  }
+  .plan {
+    background-color:darkgrey;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: .5rem;
+    margin: 0rem 3.2rem;
+    padding: 0rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  
+  .plan .plan-info {
+    display: flex;
+    gap: 15rem;
+    text-align: center;
+  }
+  .plan .plan-info .plan-type {
+    font-weight: 500;
+    color:dimgray;
+    padding-bottom: 0rem;
+  }
+  
+  .plan .plan-info .plan-cost {
+    font-weight: 500;
+    color:slateblue;
+  }
+  
+  .Verify{
+    margin: 1.6rem 3.2rem;
+    padding: 1.3rem;
+    border-radius: .5rem;
+    border: none;
+    background-color:green;
+    color: #f5f7ff;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .2em;
+    line-height: 1rem;
+    cursor: pointer;
+  }
+  
+  .Verify:hover {
+    opacity: 0.8;
+  }
+  
+  .howtopay {
+    text-align: center;
+    margin-bottom: 3.2rem;
+    text-decoration: none;
+    color:cadetblue;
+  }
+  
+  .howtopay:hover {
+    color: #1f2f56;
+    font-weight: 900;
+  }
+  .Verify a{
+    color: #f5f7ff;
+    text-decoration: none;
+  }
+  @media screen and (max-width: 1024px) {
+    .card {
+      margin: 4rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card {
+      margin: 1rem;
+    }
+    .plan .plan-info {
+      display: flex;
+      flex-wrap:nowrap;
+      text-align: center;
+      gap: 150px;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    input[type="text"],
+   textarea{
+    width: 64%;
+
+}
+    .id .black{
+      font-size:12px;
+    }
+    .id .small{
+      font: size 8px;
+    }
+    .id{
+      flex-wrap:nowrap;
+      gap: 0;
+    }
+    .plan .plan-info {
+      gap: 60px;
+    }
+    .card {
+      width: 90vw;
+    }
+   
+  }
+  
+  @media screen and (max-width: 365px) {
+    html {
+      font-size: 50%;
+    }
+    .plan .plan-info {
+      gap: 40px;
+    }
+  }
+  body{
+    background-color:#3e52a3;
+  }
+  .verification{
+    text-align: center;
+  }
+  .verify2{
+    margin-top: 2rem;
+    color: #fff;
+    letter-spacing: 1.5px;
+    padding-bottom: 20px;
+  }
+  .type{
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .otp{
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  @media screen and (max-width: 365px) {
+    .verification{
+      font-size: small;
+    }
+    
+     .getOTP{
+      gap: 7px;
+    }
+  }
+
+  .getOTP{
+    margin-top: 2rem;
+    display: flex;
+    gap: 10px;
+  }
+
+ input[type="text5"]{
+  width: 27px;
+  height: 27px;
+ }
+ .success{
+  background-color: green;
+ }
+ .bold{
+  border: 1px solid blueviolet;
+  border-radius: 30px;
+  background-color: wheat;
+  letter-spacing: 1px;
+  color: #1f2f56;
+  padding: 5px;
+ }
+ .white{
+  color:white;
+  letter-spacing: 1px;
+ }
+ hr{
+  width: 600px;
+ }
+ .trans{
+  letter-spacing: .6px;
+ }
+ .remark{
+  text-align: left;
+ }
+ .img{
+  position:relative;
+ }
+ @media screen and (max-width: 500px) {
+  .img{
+    width: 400px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .img{
+    width: 200px;
+    height:100px ;
+    margin-left: 2px;
+  }
+}

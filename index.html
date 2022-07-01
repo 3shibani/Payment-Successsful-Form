@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Payment Form</title>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+
+        <h3 class="card-title">Your Details > Payment</h3>
+        <p>Name : <input type="text" name="name" placeholder="Enter your name here"></p>
+        <p>Email : <input type="text" name="name" placeholder="Enter your email here"></p>
+        <div class="plan">
+          <div class="plan-info">
+            <p class="plan-type">UPI</p>
+            <p class="plan-cost">Change</p>
+          </div>
+          
+        </div>
+        <p class="select">Select your UPI app :
+          <select name="Card_type" id="Card_type" required class="choose">
+              <option value="">-- Select your UPI app --</option>
+              <option value="PhonePe">PhonePe</option>
+              <option value="Google Pay">Google Pay</option>
+              <option value="Paytm">Paytm</option>
+              <option value="Amazon Pay">Amazon Pay</option>
+              <option value="BHIM">BHIM</option>
+          </select>
+      </p>
+
+      <div class="id">
+        <p class="black">Enter Your UPI ID :</p> 
+        <p class="small">How to find UPI ID ?</p>
+      </div>
+      <div class="password">
+        <input type="password" name="password" id="password" placeholder="your UPI ID">
+      </div>
+        <button class="Verify"><a href="verify.html">Verify & Pay</a></button>
+        <a href="" class="howtopay">How to pay using UPI ?</a>
+      </div>
+    </main>
+
+    
+      
+    </div>
+  </body>
+</html>
